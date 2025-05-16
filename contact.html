@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SwiftMove Canada | Professional Moving Services</title>
+    <meta name="description" content="Contact SwiftMove Canada for your moving needs. Get a free quote today! Call (555) 123-4567 or fill out our contact form.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="SwiftMove Canada Logo">
+                    <span>Swift<span>Move</span></span>
+                </a>
+                
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html" class="btn-nav active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="page-hero contact-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Contact Us</h1>
+                <p>Get in touch for a free, no-obligation quote</p>
+            </div>
+        </div>
+        <div class="page-hero-overlay"></div>
+    </section>
+
+    <!-- Breadcrumbs -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Main Section -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-container">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Get a Free Quote</h2>
+                    <p>Fill out the form below and we'll get back to you within 24 hours</p>
+                    
+                    <form id="moving-quote-form" action="https://formspree.io/f/your-email@example.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number*</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="move-date">Preferred Move Date</label>
+                            <input type="date" id="move-date" name="move-date">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="move-type">Move Type*</label>
+                            <select id="move-type" name="move-type" required>
+                                <option value="" disabled selected>Select move type</option>
+                                <option value="local">Local Move</option>
+                                <option value="long-distance">Long Distance</option>
+                                <option value="packing">Packing Services</option>
+                                <option value="storage">Storage</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="origin">Moving From (Address)*</label>
+                            <input type="text" id="origin" name="origin" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="destination">Moving To (Address)*</label>
+                            <input type="text" id="destination" name="destination" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Additional Details</label>
+                            <textarea id="message" name="message" rows="5"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">Submit Request</button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="contact-info-container">
+                    <div class="contact-info-card">
+                        <h3>Contact Information</h3>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Our Office</h4>
+                                <p>123 Moving Street<br>Toronto, ON M5V 2H1</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Call Us</h4>
+                                <p><a href="tel:+15551234567">(555) 123-4567</a></p>
+                                <small>Monday-Saturday, 8am-6pm</small>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Us</h4>
+                                <p><a href="mailto:info@swiftmove.ca">info@swiftmove.ca</a></p>
+                                <small>Response within 24 hours</small>
+                            </div>
+                        </div>
+                        
+                        <div class="business-hours">
+                            <h4>Business Hours</h4>
+                            <ul>
+                                <li>
+                                    <span>Monday-Friday</span>
+                                    <span>8:00 AM - 6:00 PM</span>
+                                </li>
+                                <li>
+                                    <span>Saturday</span>
+                                    <span>9:00 AM - 4:00 PM</span>
+                                </li>
+                                <li>
+                                    <span>Sunday</span>
+                                    <span>Closed</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="emergency-contact">
+                            <i class="fas fa-exclamation-circle"></i>
+                            <p>For urgent moving inquiries outside business hours, please call <a href="tel:+15551234567">(555) 123-4567</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Map Section -->
+            <div class="map-container">
+                <h2>Our Location</h2>
+                <div class="map-wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.2692505416353!2d-79.38924548450267!3d43.64256617912172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d68bf33a9b%3A0x15edd8c4de1c7581!2sCN%20Tower!5e0!3m2!1sen!2sca!4v1620000000000!5m2!1sen!2sca" 
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Move With Confidence?</h2>
+                <p>Our team is standing by to help with your relocation needs</p>
+                <div class="cta-buttons">
+                    <a href="tel:+15551234567" class="btn btn-white">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                    <a href="#moving-quote-form" class="btn btn-outline-white">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="SwiftMove Canada Logo">
+                        <span>Swift<span>Move</span></span>
+                    </div>
+                    <p>Professional moving services across Canada with care and precision.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html#local">Local Moving</a></li>
+                        <li><a href="services.html#long-distance">Long Distance</a></li>
+                        <li><a href="services.html#packing">Packing Services</a></li>
+                        <li><a href="services.html#storage">Storage Solutions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Moving St, Toronto, ON</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@swiftmove.ca</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 SwiftMove Canada. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tawk.to Live Chat -->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/YOUR_TAWKTO_WIDGET_ID/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+
+    <script src="/app.js"></script>
+</body>
+</html>
