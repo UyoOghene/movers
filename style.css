@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-    --primary-color: #070361;
+    --primary-color: #4f4baa;
     --secondary-color: #590656;
     --dark-color: #0C134F;
     --light-color: #d4cef3;
@@ -88,7 +88,8 @@ img {
 }
 
 .btn-primary {
-    background-color: var(--secondary-color);
+    background-color: #1ca38f;
+    /* background-color: var(--secondary-color); */
     color: var(--white-color);
 }
 
@@ -279,7 +280,7 @@ img {
 }
 
 .main-nav ul li a {
-    color: var(--primary-color);
+    color: var(--dark-color);
     font-weight: 500;
     padding: 5px 0;
     position: relative;
@@ -324,7 +325,7 @@ img {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: var(--primary-color);
+    background-color: var(--dark-color);
     margin: 5px 0;
     transition: var(--transition);
 }
@@ -342,9 +343,9 @@ img {
         width: 80%;
         max-width: 400px;
         height: 100vh;
-    background-color: rgba(249, 242, 242, 0.402);
-        backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(15px);
+        background-color: rgba(249, 242, 242, 0.802);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
         box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
         transition: var(--transition);
         padding: 80px 30px;
@@ -398,7 +399,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(-60deg, #7c5eb7, #0f0344, #7c5eb7, #0f0344);
+    background: linear-gradient(-60deg, #b75e73, #0d61a8, #7c5eb7, #0d61a8);
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
     opacity: 0.8;
@@ -447,7 +448,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 20px;
-    animation: fadeInUp 1s ease 0.4s both;
+    animation: fadeInUp 2s ease 0.4s both;
 }
 
 /* Features Section */
@@ -496,7 +497,7 @@ img {
 }
 
 .section-header p {
-    color: #666;
+    color: #ddcb63;
     max-width: 700px;
     margin: 0 auto;
 }
@@ -556,7 +557,7 @@ img {
 }
 
 .rating {
-    color: var(--secondary-color);
+    color: #ffd600;
     margin-bottom: 15px;
 }
 
@@ -577,7 +578,9 @@ img {
 
 /* CTA Section */
 .cta {
-    background-color: var(--secondary-color);
+    /* background: linear-gradient(135deg, #6a0864, #84065e, #8e44ad); */
+    background-color: #210344;
+    border-radius: 10%/20% ;
     color: var(--white-color);
     text-align: center;
     padding: 60px 0;
