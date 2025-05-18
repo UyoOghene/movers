@@ -3,7 +3,7 @@
     --primary-color: #070361;
     --secondary-color: #590656;
     --dark-color: #0C134F;
-    --light-color: #90B8F8;
+    --light-color: #d4cef3;
     /* --light-color: #F8F9FA; */
     --white-color: #FFFFFF;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -342,9 +342,9 @@ img {
         width: 80%;
         max-width: 400px;
         height: 100vh;
-    background-color: rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(249, 242, 242, 0.402);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
         box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
         transition: var(--transition);
         padding: 80px 30px;
