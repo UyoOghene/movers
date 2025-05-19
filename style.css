@@ -1,9 +1,9 @@
 /* Global Styles */
 :root {
-    --primary-color: #4f4baa;
-    --secondary-color: #590656;
-    --dark-color: #0C134F;
-    --light-color: #d4cef3;
+    --primary-color: #4b6faa;
+    --secondary-color: #ffce00;
+    --dark-color: #08306b;
+    --light-color: #A1E3F9;
     /* --light-color: #F8F9FA; */
     --white-color: #FFFFFF;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -72,6 +72,7 @@ img {
 }
 
 .text-center {
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -88,13 +89,13 @@ img {
 }
 
 .btn-primary {
-    background-color: #1ca38f;
+    background-color: #427be7c0;
     /* background-color: var(--secondary-color); */
     color: var(--white-color);
 }
 
 .btn-primary:hover {
-    background-color: #e6951a;
+    background-color: #f55275;
     transform: translateY(-3px);
     box-shadow: var(--box-shadow);
 }
@@ -399,7 +400,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(-60deg, #b75e73, #0d61a8, #7c5eb7, #0d61a8);
+    background: linear-gradient(-60deg, #b75e73, #67abf4, #18abbc, #0d61a8);
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
     opacity: 0.8;
@@ -413,6 +414,9 @@ img {
         /* transform: translateY(20px); */
         animation: gradientShift 12s ease infinite;
 
+}
+#hero-span{
+    color: #281a77;
 }
 
 @keyframes gradientShift {
@@ -497,7 +501,7 @@ img {
 }
 
 .section-header p {
-    color: #ddcb63;
+    color: #6A1F55;
     max-width: 700px;
     margin: 0 auto;
 }
@@ -527,7 +531,7 @@ img {
 }
 
 .service-content {
-    padding: 25px;
+    padding: 20px;
 }
 
 /* Testimonials */
@@ -579,7 +583,7 @@ img {
 /* CTA Section */
 .cta {
     /* background: linear-gradient(135deg, #6a0864, #84065e, #8e44ad); */
-    background-color: #210344;
+    background-color: #130468;
     border-radius: 10%/20% ;
     color: var(--white-color);
     text-align: center;
@@ -781,7 +785,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-        background: linear-gradient(rgba(124, 94, 183, 0.842), rgba(15, 3, 68, 0.8)), 
+        background: linear-gradient(rgba(75, 109, 229, 0.842), rgba(88, 59, 216, 0.8)), 
                 url('./images/backgroundpic.jpeg') no-repeat center center;
     background-size: cover;
         animation: gradientShift 12s ease infinite;
@@ -878,17 +882,17 @@ img {
     right: 20px;
     background-color: var(--secondary-color);
     color: var(--white-color);
-    padding: 8px 15px;
+    padding: 8px 10px;
     border-radius: 30px;
-    font-size: 0.8rem;
-    font-weight: 600;
+    font-size: 0.5rem;
+    font-weight: 500;
     display: flex;
     align-items: center;
 }
 
 .service-badge i {
     margin-right: 8px;
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
 
 .service-features {
@@ -1091,7 +1095,7 @@ img {
 .contact-icon {
     width: 50px;
     height: 50px;
-    background-color: rgba(245, 166, 35, 0.1);
+    background-color: rgba(245, 67, 35, 0.1);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1131,7 +1135,7 @@ img {
 }
 
 .emergency-contact {
-    background-color: rgba(245, 166, 35, 0.1);
+    background-color: rgba(245, 56, 35, 0.1);
     padding: 15px;
     border-radius: 8px;
     display: flex;
@@ -1246,7 +1250,7 @@ img {
 }
 
 .page-hero-overlay {
-        background: linear-gradient(-60deg, #7c5eb7, #0f0344, #7c5eb7, #0f0344);
+        background: linear-gradient(-60deg, #5055e9, #0b159c5c, #5e80b7, #2c12a2);
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
 
@@ -1308,7 +1312,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(89, 6, 86, 0.3) 0%, rgba(7, 3, 97, 0.2) 100%);
+    background: linear-gradient(135deg, rgba(18, 6, 89, 0.617) 0%, rgba(7, 3, 97, 0.2) 100%);
     border-radius: 15px;
     z-index: 1;
 }
