@@ -3,7 +3,7 @@
     --primary-color: #1b1a54 ;
     --secondary-color: #ffce00;
     --dark-color: #13287e;
-    --light-color: #A1E3F9;
+    --light-color: #eca1f9;
     /* --light-color: #F8F9FA; */
     --white-color: #FFFFFF;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -472,7 +472,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 20px;
-    animation: fadeInUp 2s ease 0.5s both;
+    animation: fadeInUp 3s ease 0.5s both;
 }
 
 /* Features Section */
@@ -748,11 +748,12 @@ img {
 /* Mobile Styles */
 @media (max-width: 768px) {
     .hero h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     
     .hero p {
-        font-size: 1rem;
+        font-size: 1.8rem;
+        font-weight: 1.8rem;
     }
     
     .footer-bottom {
@@ -783,7 +784,7 @@ img {
     }
     
     .hero h1 {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
 }
 
