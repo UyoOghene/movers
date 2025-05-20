@@ -752,8 +752,9 @@ img {
     }
     
     .hero p {
-        font-size: 1.8rem;
-        font-weight: 1.8rem;
+        font-size: 1.2rem;
+        font-weight: 3rem;
+        color: #110125;
     }
     
     .footer-bottom {
