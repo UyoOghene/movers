@@ -387,7 +387,7 @@ img {
     min-height: 600px;
     display: flex;
     align-items: center;
-    background: url('../images/maxim-tolchinskiy-crHhZlES310-unsplash.jpg') no-repeat center center/cover;
+    background: url('../images/fotos-XIBACDuqxDc-unsplash.jpg') no-repeat center center/cover;
     color: #40032f;
     text-align: center;
     margin-top: 80px; /* Adjusted for glass header */
@@ -446,9 +446,9 @@ img {
 
 /* Features Section */
 .features {
-    background: url('../images/Evom logo.png') no-repeat center center/cover;
+    background: url('../images/moving-storage-designteam.jpg') no-repeat center center/cover;
     /* opacity: 0.8; */
-    padding: 60px 0;
+    padding: 60px 0px;
     color: #FFFFFF;
 }
 
@@ -462,11 +462,8 @@ img {
 .feature-card {
     /* background-color: var(--white-color); */
     background-color: rgba(51, 17, 153, 0.366);
-    /* background-color: rgba(249, 242, 242, 0.802); */
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-
-
     z-index: 4;
     padding: 30px;
     border-radius: 10px;
