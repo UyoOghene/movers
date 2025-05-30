@@ -387,7 +387,7 @@ img {
     min-height: 600px;
     display: flex;
     align-items: center;
-    background: url('../images/fotos-XIBACDuqxDc-unsplash.jpg') no-repeat center center/cover;
+    background: url('/images/maxim-tolchinskiy-crHhZlES310-unsplash.jpg') no-repeat center center/cover;
     color: #40032f;
     text-align: center;
     margin-top: 80px; /* Adjusted for glass header */
