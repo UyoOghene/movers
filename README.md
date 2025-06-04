@@ -2,6 +2,16 @@ Evom Movers Canada Website :   https://evommovers.netlify.app/
 
 This is the official website for Evom Movers Canada, a professional moving services company. It features modern design, user-friendly navigation, and essential information for potential customers.
 
+Technologies Used:
+✅ HTML5
+✅ CSS3 (including an external stylesheet style.css)
+✅ JavaScript (with some inlined scripts for interactive functionality like mobile nav toggle, smooth scrolling, and sticky header effects)
+✅ Font Awesome (for icons)
+✅ Google Fonts (specifically the “Poppins” font family)
+✅ Tawk.to (for live chat integration)
+✅ Google Maps Embed API (for the map section showing the business location)
+✅ Responsive Design Principles (with a mobile-friendly approach and interactive toggling)
+
 🌟 Features
 ✅ Responsive Design
 Works seamlessly on mobile, tablet, and desktop devices.
